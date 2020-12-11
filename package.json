@@ -1,0 +1,12 @@
+{
+  "name": "adventofcode",
+  "author": "Tony Tang",
+  "homepage": "https://github.com/tonytangio/adventOfCode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonytangio/adventOfCode.git"
+  },
+  "scripts": {
+    "latest": "echo $(./getLatest.sh) | xargs ts-node"
+  }
+}
