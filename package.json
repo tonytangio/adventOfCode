@@ -7,6 +7,11 @@
     "url": "git+https://github.com/tonytangio/adventOfCode.git"
   },
   "scripts": {
-    "latest": "ts-node $(./getLatest.sh)"
+    "latest": "run-p latest:*",
+    "latest:input": "ts-node $(./getLatest.sh)",
+    "latest:sample": "ts-node $(./getLatest.sh) sample.txt"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
