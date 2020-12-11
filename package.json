@@ -7,6 +7,6 @@
     "url": "git+https://github.com/tonytangio/adventOfCode.git"
   },
   "scripts": {
-    "latest": "echo $(./getLatest.sh) | xargs ts-node"
+    "latest": "ts-node $(./getLatest.sh)"
   }
 }
