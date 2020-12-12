@@ -1,3 +1,3 @@
 # adventOfCode
 
-Collection of my Advent of Code submissions, grouped by year.
+Collection of my Advent of Code code, grouped by year.
