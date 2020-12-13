@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import * as u from "./utils";
+import * as u from "../../utils";
 
 const args = process.argv.slice(2);
 const inputFile = args.shift() || "input.txt";
